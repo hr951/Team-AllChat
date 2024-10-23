@@ -1,9 +1,9 @@
 {
     "format_version": 2,
     "header": {
-        "name": "Minachan鯖 企画用",
+        "name": "Team-AllChat v1.0.0",
         "description": "チームチャット,全体チャットを追加します。",
-        "uuid": "8a101dab-8d4f-4f62-be7b-d4ccc6c4c2a6",
+        "uuid": "00110295-8ad5-4ff6-a43f-d406a2a4c52d",
         "version": [ 1, 0, 0 ],
         "min_engine_version": [ 1, 21, 0 ]
     },
@@ -12,7 +12,7 @@
             "description": " ",
             "type": "script",
             "entry": "scripts/index.js",
-            "uuid": "df09606c-bc36-44ab-8c0f-d7d4d6a2cd71",
+            "uuid": "2e9a5f31-e84d-4314-905e-c373fa8195f0",
             "version": [ 1, 0, 0 ]
         }
     ],
