@@ -70,6 +70,7 @@ world.beforeEvents.chatSend.subscribe((ev) => {
              }
     }
 }
+    
   function convert(romaji) {
     const keys = Object.keys(Dictionary).sort((a, b) => b.length - a.length);
     let hiragana = '';
