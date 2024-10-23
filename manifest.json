@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Minachan鯖 企画用",
+        "description": "チームチャット,全体チャットを追加します。",
+        "uuid": "8a101dab-8d4f-4f62-be7b-d4ccc6c4c2a6",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 21, 0 ]
+    },
+    "modules": [
+        {
+            "description": " ",
+            "type": "script",
+            "entry": "scripts/index.js",
+            "uuid": "df09606c-bc36-44ab-8c0f-d7d4d6a2cd71",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.0.0-alpha"
+        }
+    ]
+}
