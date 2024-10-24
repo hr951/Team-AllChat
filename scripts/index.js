@@ -3,7 +3,7 @@ import { world } from "@minecraft/server";
 world.beforeEvents.chatSend.subscribe((ev) => {
     const { message, sender } = ev;
 
-    if (message.startsWith("!" || "！")) {
+    if (message.startsWith("!") || message.startsWith("！")) {
         ev.cancel = true;
 
             const args = message.slice(1).split(" ");
