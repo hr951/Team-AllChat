@@ -2,9 +2,9 @@
     "format_version": 2,
     "header": {
         "name": "Team-AllChat v1.0.1",
-        "description": "チームチャット,全体チャットを追加します。",
+        "description": "チームチャット,全体チャットを追加します。\n味方に攻撃が当たらないようにします。",
         "uuid": "00110295-8ad5-4ff6-a43f-d406a2a4c52d",
-        "version": [ 1, 0, 1 ],
+        "version": [ 1, 0, 2 ],
         "min_engine_version": [ 1, 21, 0 ]
     },
     "modules": [
@@ -13,8 +13,14 @@
             "type": "script",
             "entry": "scripts/index.js",
             "uuid": "2e9a5f31-e84d-4314-905e-c373fa8195f0",
-            "version": [ 1, 0, 1 ]
-        }
+            "version": [ 1, 0, 2 ]
+        },
+        {
+            "type": "data",
+            "description": "behavior module",
+            "version": [ 1, 0, 2 ],
+            "uuid": "83567c80-044b-4b6b-8ca4-d456673ce833"
+          }
     ],
     "dependencies": [
         {
